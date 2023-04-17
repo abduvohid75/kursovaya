@@ -16,7 +16,7 @@ def filter_data(data):
 
 def sort_data(data):
     data = sorted(data, key=lambda x: x['date'], reverse=True)
-    return data
+    return data[:5]
 
 def format_data(data):
     formatted_data = []
